@@ -1,0 +1,15 @@
+Name: Ekantika Kumari
+Rollno: 24155625
+
+JAVA CLASS
+├── .git
+├── notes.txt
+├── src
+│   ├── lab1           <-- Package for Week 1
+│   │   └── Hello.java
+│   ├── lab2           <-- Package for Week 2
+│   │   └── Calculator.java
+│   └── lab3           <-- Package for Week 3
+
+Lab0: 5th Dec 2025
+Setting up git and basic HelloWorld program
