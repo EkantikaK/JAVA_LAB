@@ -1,7 +1,5 @@
 package lab3;
-
 import java.util.Scanner;
-
 class MultiPlate {
     double length;
     double width;
@@ -16,7 +14,6 @@ class MultiPlate {
 
 class MultiBox extends MultiPlate {
     double height;
-
     MultiBox(double length, double width, double height) {
         // super() must be the first line to call the parent constructor
         super(length, width);
@@ -47,9 +44,7 @@ public class BoxDimensions {
         double h = sc.nextDouble();
         System.out.print("Enter Thickness: ");
         double t = sc.nextDouble();
-
         System.out.println("\n--- Initializing Object ---");
-
         MultiWoodBox wb = new MultiWoodBox(l, w, h, t);
     }
 }

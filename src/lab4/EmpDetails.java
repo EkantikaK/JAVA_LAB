@@ -1,15 +1,11 @@
 package lab4;
-
 import java.util.Scanner;
-
 interface StaffMember {
     void getDetails();
 }
-
 interface DeptManager extends StaffMember {
     void getDeptDetails();
 }
-
 class DeptHead implements DeptManager {
     int empId;
     String empName;
@@ -38,7 +34,6 @@ class DeptHead implements DeptManager {
         System.out.println("Department name - " + deptName);
     }
 }
-
 public class EmpDetails {
     public static void main(String[] args) {
         DeptHead h = new DeptHead();
