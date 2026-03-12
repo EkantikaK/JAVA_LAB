@@ -1,7 +1,7 @@
-package Marketing;
+package lab5.General.Marketing;
 
 
-import General.employee;
+import lab5.General.employee;
 import java.util.Scanner;
 
 public class sales extends employee {

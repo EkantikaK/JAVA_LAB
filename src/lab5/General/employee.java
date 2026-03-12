@@ -1,4 +1,4 @@
-package General;
+package lab5.General;
 
 public class employee {
 
